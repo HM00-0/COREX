@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F671732DE5D6F60002F78E /* COREXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F671632DE5D6F00002F78E /* COREXApp.swift */; };
+		66F671AC2DE5D6F60002F78E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F671622DE5D6F00002F78E /* ChatView.swift */; };
+		66F671B42DE5D6F60002F78E /* Chatbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F671602DE5D6F00002F78E /* Chatbot.swift */; };
+		66F671BB2DE5D6F60002F78E /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F671652DE5D6F00002F78E /* MessageBubble.swift */; };
+		66F672072DE5D6F60002F78E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F671642DE5D6F00002F78E /* MainView.swift */; };
+		66F672272DE5D6F60002F78E /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F671612DE5D6F00002F78E /* ChatMessage.swift */; };
+		66F6737F2DE5D6F60002F78E /* 해체공사 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C892DE5D6F00002F78E /* 해체공사 안전보건작업 기술지침.pdf */; };
+		66F673EC2DE5D6F60002F78E /* 터널공사(NTR공법) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C7E2DE5D6F00002F78E /* 터널공사(NTR공법) 안전보건작업지침.pdf */; };
+		66F674132DE5D6F60002F78E /* 낙하물 방지망 설치 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C4C2DE5D6F00002F78E /* 낙하물 방지망 설치 지침.pdf */; };
+		66F676882DE5D6F60002F78E /* 흙막이공사(띠장긴장공법, Prestressed Wale Method) 안전보건 작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C922DE5D6F00002F78E /* 흙막이공사(띠장긴장공법, Prestressed Wale Method) 안전보건 작업지침.pdf */; };
+		66F676B62DE5D6F60002F78E /* 굴착공사 계측관리 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C472DE5D6F00002F78E /* 굴착공사 계측관리 기술지침.pdf */; };
+		66F677812DE5D6F60002F78E /* 철골공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C732DE5D6F00002F78E /* 철골공사 안전보건작업 지침.pdf */; };
+		66F677D92DE5D6F60002F78E /* 흙막이공사(C.I.P공법) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C8E2DE5D6F00002F78E /* 흙막이공사(C.I.P공법) 안전보건작업 지침.pdf */; };
+		66F6781A2DE5D6F60002F78E /* 현수교 주탑시공 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C8B2DE5D6F00002F78E /* 현수교 주탑시공 안전보건작업지침.pdf */; };
+		66F678212DE5D6F60002F78E /* 시트(Sheet)방수 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C602DE5D6F00002F78E /* 시트(Sheet)방수 안전보건작업 지침.pdf */; };
+		66F678E72DE5D6F60002F78E /* requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66F6715D2DE5D6F00002F78E /* requirements.txt */; };
+		66F679AB2DE5D6F60002F78E /* 강아치교(벤트공법) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C352DE5D6F00002F78E /* 강아치교(벤트공법) 안전보건작업지침.pdf */; };
+		66F67A5C2DE5D6F60002F78E /* 작업의자형 달비계 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C6A2DE5D6F00002F78E /* 작업의자형 달비계 안전작업 지침.pdf */; };
+		66F67B7A2DE5D6F60002F78E /* 터널공사(침매공법) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C802DE5D6F00002F78E /* 터널공사(침매공법) 안전보건작업지침.pdf */; };
+		66F67C162DE5D6F60002F78E /* 건설공사의 고소작업대 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C3A2DE5D6F00002F78E /* 건설공사의 고소작업대 안전보건작업지침.pdf */; };
+		66F67D222DE5D6F60002F78E /* 건설공사 굴착면 안전기울기 기준에 관한 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C372DE5D6F00002F78E /* 건설공사 굴착면 안전기울기 기준에 관한 기술지침.pdf */; };
+		66F6802D2DE5D6F60002F78E /* 블록식 보강토 옹벽 공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C562DE5D6F00002F78E /* 블록식 보강토 옹벽 공사 안전보건작업 지침.pdf */; };
+		66F680962DE5D6F60002F78E /* 터널공사(NATM공법) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C7D2DE5D6F00002F78E /* 터널공사(NATM공법) 안전보건작업 지침.pdf */; };
+		66F683F62DE5D6F60002F78E /* I.L.M 교량공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C2E2DE5D6F00002F78E /* I.L.M 교량공사 안전보건작업 지침.pdf */; };
+		66F684CE2DE5D6F60002F78E /* 리모델링 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C522DE5D6F00002F78E /* 리모델링 안전보건작업 기술지침.pdf */; };
+		66F684F62DE5D6F60002F78E /* 취약시기 건설현장 안전작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C782DE5D6F00002F78E /* 취약시기 건설현장 안전작업지침.pdf */; };
+		66F6851D2DE5D6F60002F78E /* 작업발판 설치 및 사용안전 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C692DE5D6F00002F78E /* 작업발판 설치 및 사용안전 지침.pdf */; };
+		66F685262DE5D6F60002F78E /* 항타기, 항발기 사용 작업계획서 작성지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C872DE5D6F00002F78E /* 항타기, 항발기 사용 작업계획서 작성지침.pdf */; };
+		66F685CB2DE5D6F60002F78E /* 옹벽(콘크리트 옹벽)공사의 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C642DE5D6F00002F78E /* 옹벽(콘크리트 옹벽)공사의 안전보건작업지침.pdf */; };
+		66F686202DE5D6F60002F78E /* 파이프 서포트 동바리 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C842DE5D6F00002F78E /* 파이프 서포트 동바리 안전작업 지침.pdf */; };
+		66F6875D2DE5D6F60002F78E /* 탑다운(Top down) 공법 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C7C2DE5D6F00002F78E /* 탑다운(Top down) 공법 안전작업 지침.pdf */; };
+		66F687722DE5D6F60002F78E /* api.py in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C282DE5D6F00002F78E /* api.py */; };
+		66F687882DE5D6F60002F78E /* 지붕공사 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C702DE5D6F00002F78E /* 지붕공사 안전보건작업 기술지침.pdf */; };
+		66F688192DE5D6F60002F78E /* 교량공사(라멘교) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C452DE5D6F00002F78E /* 교량공사(라멘교) 안전보건작업지침.pdf */; };
+		66F688312DE5D6F60002F78E /* 타워크레인 설치, 조립, 해체 작업계획서 작성지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C7A2DE5D6F00002F78E /* 타워크레인 설치, 조립, 해체 작업계획서 작성지침.pdf */; };
+		66F6895A2DE5D6F60002F78E /* rag_engine.py in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C2B2DE5D6F00002F78E /* rag_engine.py */; };
+		66F68ABE2DE5D6F60002F78E /* 트러스거더 교량공사 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C822DE5D6F00002F78E /* 트러스거더 교량공사 안전보건작업지침.pdf */; };
+		66F68B322DE5D6F60002F78E /* 미장공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C532DE5D6F00002F78E /* 미장공사 안전보건작업 지침.pdf */; };
+		66F68C722DE5D6F60002F78E /* 해상 RCD 현장타설 말뚝공사(현수교, 사장교) 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C882DE5D6F00002F78E /* 해상 RCD 현장타설 말뚝공사(현수교, 사장교) 안전작업 지침.pdf */; };
+		66F690022DE5D6F60002F78E /* 기성 콘크리트 파일 항타 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C4B2DE5D6F00002F78E /* 기성 콘크리트 파일 항타 안전보건작업 지침.pdf */; };
+		66F690252DE5D6F60002F78E /* config.cpython-311.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C242DE5D6F00002F78E /* config.cpython-311.pyc */; };
+		66F6906A2DE5D6F60002F78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6715F2DE5D6F00002F78E /* Assets.xcassets */; };
+		66F690AD2DE5D6F60002F78E /* 소규모 철근콘크리트 교량공사 거푸집 동바리 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C582DE5D6F00002F78E /* 소규모 철근콘크리트 교량공사 거푸집 동바리 안전작업 지침.pdf */; };
+		66F690C92DE5D6F60002F78E /* 이동식 비계 설치 및 사용안전 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C662DE5D6F00002F78E /* 이동식 비계 설치 및 사용안전 기술지침.pdf */; };
+		66F690D62DE5D6F60002F78E /* api.cpython-311.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C232DE5D6F00002F78E /* api.cpython-311.pyc */; };
+		66F690F22DE5D6F60002F78E /* 갱폼(Gang form) 제작 및 사용안전 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C362DE5D6F00002F78E /* 갱폼(Gang form) 제작 및 사용안전 지침.pdf */; };
+		66F691E22DE5D6F60002F78E /* 화학플랜트 개보수 공사 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C8C2DE5D6F00002F78E /* 화학플랜트 개보수 공사 안전보건작업 기술지침.pdf */; };
+		66F6926A2DE5D6F60002F78E /* 이동식 크레인 양중작업의 안정성 검토 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C682DE5D6F00002F78E /* 이동식 크레인 양중작업의 안정성 검토 지침.pdf */; };
+		66F692A72DE5D6F60002F78E /* 안전대 사용지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C622DE5D6F00002F78E /* 안전대 사용지침.pdf */; };
+		66F693F12DE5D6F60002F78E /* 건축물의 석공사(내외장) 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C3E2DE5D6F00002F78E /* 건축물의 석공사(내외장) 안전보건작업 기술지침.pdf */; };
+		66F694302DE5D6F60002F78E /* 덤프트럭 및 화물자동차 안전작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C512DE5D6F00002F78E /* 덤프트럭 및 화물자동차 안전작업지침.pdf */; };
+		66F694702DE5D6F60002F78E /* 초고층 건축물공사(일반사항) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C752DE5D6F00002F78E /* 초고층 건축물공사(일반사항) 안전보건작업지침.pdf */; };
+		66F695D32DE5D6F60002F78E /* 수직보호망 설치 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C5A2DE5D6F00002F78E /* 수직보호망 설치 지침.pdf */; };
+		66F695F42DE5D6F60002F78E /* 조경공사(수목식재작업) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C6C2DE5D6F00002F78E /* 조경공사(수목식재작업) 안전보건작업지침.pdf */; };
+		66F698812DE5D6F60002F78E /* 가공송전선로 철탑 심형기초공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C302DE5D6F00002F78E /* 가공송전선로 철탑 심형기초공사 안전보건작업 지침.pdf */; };
+		66F699062DE5D6F60002F78E /* 내장공사의 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C4E2DE5D6F00002F78E /* 내장공사의 안전보건작업 지침.pdf */; };
+		66F699472DE5D6F60002F78E /* 곤돌라(Gondola) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C402DE5D6F00002F78E /* 곤돌라(Gondola) 안전보건작업 지침.pdf */; };
+		66F69A102DE5D6F60002F78E /* 건설현장 용접용단 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C3C2DE5D6F00002F78E /* 건설현장 용접용단 안전보건작업 기술지침.pdf */; };
+		66F69AB32DE5D6F60002F78E /* 프리스트레스트 콘크리트(PSC) 교량공사 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C852DE5D6F00002F78E /* 프리스트레스트 콘크리트(PSC) 교량공사 안전작업 지침.pdf */; };
+		66F69AC22DE5D6F60002F78E /* 시스템 동바리 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C5D2DE5D6F00002F78E /* 시스템 동바리 안전작업 지침.pdf */; };
+		66F69C252DE5D6F60002F78E /* 흙막이공사(엄지말뚝 공법) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C932DE5D6F00002F78E /* 흙막이공사(엄지말뚝 공법) 안전보건작업 지침.pdf */; };
+		66F69CE42DE5D6F60002F78E /* 밀폐공간의 방수공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C542DE5D6F00002F78E /* 밀폐공간의 방수공사 안전보건작업 지침.pdf */; };
+		66F69D642DE5D6F60002F78E /* index.pkl in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C982DE5D6F00002F78E /* index.pkl */; };
+		66F69E5B2DE5D6F60002F78E /* 야간 건설공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C632DE5D6F00002F78E /* 야간 건설공사 안전보건작업 지침.pdf */; };
+		66F69E682DE5D6F60002F78E /* 재사용 가설기자재 성능기준에 관한 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C6B2DE5D6F00002F78E /* 재사용 가설기자재 성능기준에 관한 지침.pdf */; };
+		66F69FE22DE5D6F60002F78E /* 트럭 탑재형 크레인(Cago crane) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C832DE5D6F00002F78E /* 트럭 탑재형 크레인(Cago crane) 안전보건작업지침.pdf */; };
+		66F6A02C2DE5D6F60002F78E /* 철탑공사 안전보건기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C742DE5D6F00002F78E /* 철탑공사 안전보건기술지침.pdf */; };
+		66F6A0EC2DE5D6F60002F78E /* 철골공사 무지보 거푸집동바리(데크플레이트 공법)안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C722DE5D6F00002F78E /* 철골공사 무지보 거푸집동바리(데크플레이트 공법)안전보건작업 지침.pdf */; };
+		66F6A1462DE5D6F60002F78E /* 금속 커튼월(Curtain wall) 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C4A2DE5D6F00002F78E /* 금속 커튼월(Curtain wall) 안전작업 지침.pdf */; };
+		66F6A1902DE5D6F60002F78E /* pdf_loader.py in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C2A2DE5D6F00002F78E /* pdf_loader.py */; };
+		66F6A3212DE5D6F60002F78E /* 조적공사 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C6D2DE5D6F00002F78E /* 조적공사 안전보건작업 기술지침.pdf */; };
+		66F6A3322DE5D6F60002F78E /* index.faiss in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C972DE5D6F00002F78E /* index.faiss */; };
+		66F6A4512DE5D6F60002F78E /* 초고층 건축물공사(화재예방) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C762DE5D6F00002F78E /* 초고층 건축물공사(화재예방) 안전보건작업지침.pdf */; };
+		66F6A50A2DE5D6F60002F78E /* 흙막이공사(Earth Anchor 공법) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C8F2DE5D6F00002F78E /* 흙막이공사(Earth Anchor 공법) 안전보건작업 지침.pdf */; };
+		66F6A73A2DE5D6F60002F78E /* config.py in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C292DE5D6F00002F78E /* config.py */; };
+		66F6A8452DE5D6F60002F78E /* 흙막이공사(Soil Nailing 공법) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C902DE5D6F00002F78E /* 흙막이공사(Soil Nailing 공법) 안전보건작업 지침.pdf */; };
+		66F6A8E92DE5D6F60002F78E /* 관로매설공사(유압식 추진공법) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C422DE5D6F00002F78E /* 관로매설공사(유압식 추진공법) 안전보건작업 지침.pdf */; };
+		66F6A9462DE5D6F60002F78E /* 현수교 교량공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C8A2DE5D6F00002F78E /* 현수교 교량공사 안전보건작업 지침.pdf */; };
+		66F6A9582DE5D6F60002F78E /* 지하매설물 굴착공사 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C712DE5D6F00002F78E /* 지하매설물 굴착공사 안전작업 지침.pdf */; };
+		66F6AA312DE5D6F60002F78E /* 건설공사 돌관작업 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C382DE5D6F00002F78E /* 건설공사 돌관작업 안전보건작업 지침.pdf */; };
+		66F6AB2D2DE5D6F60002F78E /* 강관비계 안전작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C332DE5D6F00002F78E /* 강관비계 안전작업지침.pdf */; };
+		66F6AED22DE5D6F60002F78E /* 경량철골 천장공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C3F2DE5D6F00002F78E /* 경량철골 천장공사 안전보건작업 지침.pdf */; };
+		66F6AF032DE5D6F60002F78E /* 시스템폼(RCS폼,ACS폼 중심) 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C5F2DE5D6F00002F78E /* 시스템폼(RCS폼,ACS폼 중심) 안전작업 지침.pdf */; };
+		66F6AFB82DE5D6F60002F78E /* 슬립폼(Slip form) 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C5C2DE5D6F00002F78E /* 슬립폼(Slip form) 안전작업 지침.pdf */; };
+		66F6B08D2DE5D6F60002F78E /* 건설기계 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C3B2DE5D6F00002F78E /* 건설기계 안전보건작업 지침.pdf */; };
+		66F6B0B52DE5D6F60002F78E /* 교량공사의 이동식 비계공법(MSS) 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C462DE5D6F00002F78E /* 교량공사의 이동식 비계공법(MSS) 안전작업 지침.pdf */; };
+		66F6B1082DE5D6F60002F78E /* 낙하물 방호선반 설치 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C4D2DE5D6F00002F78E /* 낙하물 방호선반 설치 지침.pdf */; };
+		66F6B11A2DE5D6F60002F78E /* 교량공사(P.S.M공법) 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C442DE5D6F00002F78E /* 교량공사(P.S.M공법) 안전작업 지침.pdf */; };
+		66F6B21A2DE5D6F60002F78E /* 우물통기초 안전보건 작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C652DE5D6F00002F78E /* 우물통기초 안전보건 작업지침.pdf */; };
+		66F6B2E42DE5D6F60002F78E /* 이동식 크레인 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C672DE5D6F00002F78E /* 이동식 크레인 안전보건작업 지침.pdf */; };
+		66F6B30F2DE5D6F60002F78E /* main.cpython-311.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C252DE5D6F00002F78E /* main.cpython-311.pyc */; };
+		66F6B3252DE5D6F60002F78E /* rag_engine.cpython-311.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C262DE5D6F00002F78E /* rag_engine.cpython-311.pyc */; };
+		66F6B3E32DE5D6F60002F78E /* 터널공사(Shield-T.B.M공법) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C7F2DE5D6F00002F78E /* 터널공사(Shield-T.B.M공법) 안전보건작업 지침.pdf */; };
+		66F6B44F2DE5D6F60002F78E /* 강박스거더 교량공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C342DE5D6F00002F78E /* 강박스거더 교량공사 안전보건작업 지침.pdf */; };
+		66F6B4DB2DE5D6F60002F78E /* 터널공사(프론트잭킹) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C812DE5D6F00002F78E /* 터널공사(프론트잭킹) 안전보건작업지침.pdf */; };
+		66F6B6D22DE5D6F70002F78E /* 흙막이공사(강널말뚝, Sheet Pile)의 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C912DE5D6F00002F78E /* 흙막이공사(강널말뚝, Sheet Pile)의 안전보건작업지침.pdf */; };
+		66F6B6EB2DE5D6F70002F78E /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 66F6715C2DE5D6F00002F78E /* main.py */; };
+		66F6B74C2DE5D6F70002F78E /* 콘크리트공사의 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C792DE5D6F00002F78E /* 콘크리트공사의 안전보건작업 지침.pdf */; };
+		66F6B7892DE5D6F70002F78E /* 교량 슬래브거푸집 해체용 작업대차 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C432DE5D6F00002F78E /* 교량 슬래브거푸집 해체용 작업대차 안전작업 지침.pdf */; };
+		66F6B8512DE5D6F70002F78E /* 흙막이공사 (SCW 공법) 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C8D2DE5D6F00002F78E /* 흙막이공사 (SCW 공법) 안전보건작업지침.pdf */; };
+		66F6BBC52DE5D6F70002F78E /* 가설구조물의 설계변경 요청 내용, 절차 등에 관한 작성지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C322DE5D6F00002F78E /* 가설구조물의 설계변경 요청 내용, 절차 등에 관한 작성지침.pdf */; };
+		66F6BC8A2DE5D6F70002F78E /* 발파공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C552DE5D6F00002F78E /* 발파공사 안전보건작업 지침.pdf */; };
+		66F6BD122DE5D6F70002F78E /* 중소규모 건설업체 본사의 안전보건관리에 관한 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C6E2DE5D6F00002F78E /* 중소규모 건설업체 본사의 안전보건관리에 관한 지침.pdf */; };
+		66F6BE9B2DE5D6F70002F78E /* 건설현장의 중량물 취급 작업계획서(이동식크레인) 작성지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C3D2DE5D6F00002F78E /* 건설현장의 중량물 취급 작업계획서(이동식크레인) 작성지침.pdf */; };
+		66F6BF042DE5D6F70002F78E /* 아스팔트콘크리트 포장공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C612DE5D6F00002F78E /* 아스팔트콘크리트 포장공사 안전보건작업 지침.pdf */; };
+		66F6BFC92DE5D6F70002F78E /* 수상 바지(Barge)선 이용 건설공사 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C592DE5D6F00002F78E /* 수상 바지(Barge)선 이용 건설공사 안전작업 지침.pdf */; };
+		66F6C11D2DE5D6F70002F78E /* 수직형 추락방망 설치 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C5B2DE5D6F00002F78E /* 수직형 추락방망 설치 기술지침.pdf */; };
+		66F6C27B2DE5D6F70002F78E /* 냉동냉장 물류창고 단열공사 화재예방 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C4F2DE5D6F00002F78E /* 냉동냉장 물류창고 단열공사 화재예방 안전보건작업 지침.pdf */; };
+		66F6C2B92DE5D6F70002F78E /* 타일(Tile) 공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C7B2DE5D6F00002F78E /* 타일(Tile) 공사 안전보건작업 지침.pdf */; };
+		66F6C3CB2DE5D6F70002F78E /* F.C.M 교량공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C2D2DE5D6F00002F78E /* F.C.M 교량공사 안전보건작업 지침.pdf */; };
+		66F6C4D12DE5D6F70002F78E /* 단순 슬래브 콘크리트 타설 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C502DE5D6F00002F78E /* 단순 슬래브 콘크리트 타설 안전보건작업 지침.pdf */; };
+		66F6C5012DE5D6F70002F78E /* 추락방호망 설치 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C772DE5D6F00002F78E /* 추락방호망 설치 지침.pdf */; };
+		66F6C5812DE5D6F70002F78E /* 프리캐스트 콘크리트 건축구조물 조립 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C862DE5D6F00002F78E /* 프리캐스트 콘크리트 건축구조물 조립 안전보건작업 지침.pdf */; };
+		66F6C75A2DE5D6F70002F78E /* 사장교 교량공사 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C572DE5D6F00002F78E /* 사장교 교량공사 안전보건작업 지침.pdf */; };
+		66F6C7642DE5D6F70002F78E /* 가설계단 설치 및 사용 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C312DE5D6F00002F78E /* 가설계단 설치 및 사용 안전보건작업 지침.pdf */; };
+		66F6C7872DE5D6F70002F78E /* 관로매설공사 안전보건작업 기술지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C412DE5D6F00002F78E /* 관로매설공사 안전보건작업 기술지침.pdf */; };
+		66F6C7952DE5D6F70002F78E /* 굴착기 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C492DE5D6F00002F78E /* 굴착기 안전보건작업 지침.pdf */; };
+		66F6C8662DE5D6F70002F78E /* PCT거더 교량공사 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C2F2DE5D6F00002F78E /* PCT거더 교량공사 안전보건작업지침.pdf */; };
+		66F6C9142DE5D6F70002F78E /* 굴착공사 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C482DE5D6F00002F78E /* 굴착공사 안전작업 지침.pdf */; };
+		66F6C94C2DE5D6F70002F78E /* 시스템 비계 안전작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C5E2DE5D6F00002F78E /* 시스템 비계 안전작업 지침.pdf */; };
+		66F6C96C2DE5D6F70002F78E /* 건설공사 안전보건 설계 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C392DE5D6F00002F78E /* 건설공사 안전보건 설계 지침.pdf */; };
+		66F6CB062DE5D6F70002F78E /* 흙막이공사(지하연속벽) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C942DE5D6F00002F78E /* 흙막이공사(지하연속벽) 안전보건작업 지침.pdf */; };
+		66F6CB2D2DE5D6F70002F78E /* 중소규모 관로공사의 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C6F2DE5D6F00002F78E /* 중소규모 관로공사의 안전보건작업지침.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F60C012DE5D6620002F78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F60BEB2DE5D65F0002F78E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F60BF22DE5D65F0002F78E;
+			remoteInfo = COREX;
+		};
+		66F60C0B2DE5D6620002F78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F60BEB2DE5D65F0002F78E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F60BF22DE5D65F0002F78E;
+			remoteInfo = COREX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66F60BF32DE5D65F0002F78E /* COREX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COREX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F60C002DE5D6620002F78E /* COREXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COREXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F60C0A2DE5D6620002F78E /* COREXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COREXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F60C232DE5D6F00002F78E /* api.cpython-311.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "api.cpython-311.pyc"; sourceTree = "<group>"; };
+		66F60C242DE5D6F00002F78E /* config.cpython-311.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "config.cpython-311.pyc"; sourceTree = "<group>"; };
+		66F60C252DE5D6F00002F78E /* main.cpython-311.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "main.cpython-311.pyc"; sourceTree = "<group>"; };
+		66F60C262DE5D6F00002F78E /* rag_engine.cpython-311.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rag_engine.cpython-311.pyc"; sourceTree = "<group>"; };
+		66F60C282DE5D6F00002F78E /* api.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = api.py; sourceTree = "<group>"; };
+		66F60C292DE5D6F00002F78E /* config.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = config.py; sourceTree = "<group>"; };
+		66F60C2A2DE5D6F00002F78E /* pdf_loader.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pdf_loader.py; sourceTree = "<group>"; };
+		66F60C2B2DE5D6F00002F78E /* rag_engine.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = rag_engine.py; sourceTree = "<group>"; };
+		66F60C2D2DE5D6F00002F78E /* F.C.M 교량공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "F.C.M 교량공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C2E2DE5D6F00002F78E /* I.L.M 교량공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "I.L.M 교량공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C2F2DE5D6F00002F78E /* PCT거더 교량공사 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PCT거더 교량공사 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C302DE5D6F00002F78E /* 가공송전선로 철탑 심형기초공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "가공송전선로 철탑 심형기초공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C312DE5D6F00002F78E /* 가설계단 설치 및 사용 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "가설계단 설치 및 사용 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C322DE5D6F00002F78E /* 가설구조물의 설계변경 요청 내용, 절차 등에 관한 작성지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "가설구조물의 설계변경 요청 내용, 절차 등에 관한 작성지침.pdf"; sourceTree = "<group>"; };
+		66F60C332DE5D6F00002F78E /* 강관비계 안전작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "강관비계 안전작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C342DE5D6F00002F78E /* 강박스거더 교량공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "강박스거더 교량공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C352DE5D6F00002F78E /* 강아치교(벤트공법) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "강아치교(벤트공법) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C362DE5D6F00002F78E /* 갱폼(Gang form) 제작 및 사용안전 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "갱폼(Gang form) 제작 및 사용안전 지침.pdf"; sourceTree = "<group>"; };
+		66F60C372DE5D6F00002F78E /* 건설공사 굴착면 안전기울기 기준에 관한 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건설공사 굴착면 안전기울기 기준에 관한 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C382DE5D6F00002F78E /* 건설공사 돌관작업 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건설공사 돌관작업 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C392DE5D6F00002F78E /* 건설공사 안전보건 설계 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건설공사 안전보건 설계 지침.pdf"; sourceTree = "<group>"; };
+		66F60C3A2DE5D6F00002F78E /* 건설공사의 고소작업대 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건설공사의 고소작업대 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C3B2DE5D6F00002F78E /* 건설기계 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건설기계 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C3C2DE5D6F00002F78E /* 건설현장 용접용단 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건설현장 용접용단 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C3D2DE5D6F00002F78E /* 건설현장의 중량물 취급 작업계획서(이동식크레인) 작성지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건설현장의 중량물 취급 작업계획서(이동식크레인) 작성지침.pdf"; sourceTree = "<group>"; };
+		66F60C3E2DE5D6F00002F78E /* 건축물의 석공사(내외장) 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "건축물의 석공사(내외장) 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C3F2DE5D6F00002F78E /* 경량철골 천장공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "경량철골 천장공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C402DE5D6F00002F78E /* 곤돌라(Gondola) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "곤돌라(Gondola) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C412DE5D6F00002F78E /* 관로매설공사 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "관로매설공사 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C422DE5D6F00002F78E /* 관로매설공사(유압식 추진공법) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "관로매설공사(유압식 추진공법) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C432DE5D6F00002F78E /* 교량 슬래브거푸집 해체용 작업대차 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "교량 슬래브거푸집 해체용 작업대차 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C442DE5D6F00002F78E /* 교량공사(P.S.M공법) 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "교량공사(P.S.M공법) 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C452DE5D6F00002F78E /* 교량공사(라멘교) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "교량공사(라멘교) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C462DE5D6F00002F78E /* 교량공사의 이동식 비계공법(MSS) 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "교량공사의 이동식 비계공법(MSS) 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C472DE5D6F00002F78E /* 굴착공사 계측관리 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "굴착공사 계측관리 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C482DE5D6F00002F78E /* 굴착공사 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "굴착공사 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C492DE5D6F00002F78E /* 굴착기 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "굴착기 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C4A2DE5D6F00002F78E /* 금속 커튼월(Curtain wall) 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "금속 커튼월(Curtain wall) 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C4B2DE5D6F00002F78E /* 기성 콘크리트 파일 항타 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "기성 콘크리트 파일 항타 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C4C2DE5D6F00002F78E /* 낙하물 방지망 설치 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "낙하물 방지망 설치 지침.pdf"; sourceTree = "<group>"; };
+		66F60C4D2DE5D6F00002F78E /* 낙하물 방호선반 설치 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "낙하물 방호선반 설치 지침.pdf"; sourceTree = "<group>"; };
+		66F60C4E2DE5D6F00002F78E /* 내장공사의 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "내장공사의 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C4F2DE5D6F00002F78E /* 냉동냉장 물류창고 단열공사 화재예방 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "냉동냉장 물류창고 단열공사 화재예방 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C502DE5D6F00002F78E /* 단순 슬래브 콘크리트 타설 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "단순 슬래브 콘크리트 타설 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C512DE5D6F00002F78E /* 덤프트럭 및 화물자동차 안전작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "덤프트럭 및 화물자동차 안전작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C522DE5D6F00002F78E /* 리모델링 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "리모델링 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C532DE5D6F00002F78E /* 미장공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "미장공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C542DE5D6F00002F78E /* 밀폐공간의 방수공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "밀폐공간의 방수공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C552DE5D6F00002F78E /* 발파공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "발파공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C562DE5D6F00002F78E /* 블록식 보강토 옹벽 공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "블록식 보강토 옹벽 공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C572DE5D6F00002F78E /* 사장교 교량공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "사장교 교량공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C582DE5D6F00002F78E /* 소규모 철근콘크리트 교량공사 거푸집 동바리 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "소규모 철근콘크리트 교량공사 거푸집 동바리 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C592DE5D6F00002F78E /* 수상 바지(Barge)선 이용 건설공사 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "수상 바지(Barge)선 이용 건설공사 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C5A2DE5D6F00002F78E /* 수직보호망 설치 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "수직보호망 설치 지침.pdf"; sourceTree = "<group>"; };
+		66F60C5B2DE5D6F00002F78E /* 수직형 추락방망 설치 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "수직형 추락방망 설치 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C5C2DE5D6F00002F78E /* 슬립폼(Slip form) 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "슬립폼(Slip form) 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C5D2DE5D6F00002F78E /* 시스템 동바리 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "시스템 동바리 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C5E2DE5D6F00002F78E /* 시스템 비계 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "시스템 비계 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C5F2DE5D6F00002F78E /* 시스템폼(RCS폼,ACS폼 중심) 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "시스템폼(RCS폼,ACS폼 중심) 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C602DE5D6F00002F78E /* 시트(Sheet)방수 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "시트(Sheet)방수 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C612DE5D6F00002F78E /* 아스팔트콘크리트 포장공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "아스팔트콘크리트 포장공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C622DE5D6F00002F78E /* 안전대 사용지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "안전대 사용지침.pdf"; sourceTree = "<group>"; };
+		66F60C632DE5D6F00002F78E /* 야간 건설공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "야간 건설공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C642DE5D6F00002F78E /* 옹벽(콘크리트 옹벽)공사의 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "옹벽(콘크리트 옹벽)공사의 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C652DE5D6F00002F78E /* 우물통기초 안전보건 작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "우물통기초 안전보건 작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C662DE5D6F00002F78E /* 이동식 비계 설치 및 사용안전 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "이동식 비계 설치 및 사용안전 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C672DE5D6F00002F78E /* 이동식 크레인 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "이동식 크레인 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C682DE5D6F00002F78E /* 이동식 크레인 양중작업의 안정성 검토 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "이동식 크레인 양중작업의 안정성 검토 지침.pdf"; sourceTree = "<group>"; };
+		66F60C692DE5D6F00002F78E /* 작업발판 설치 및 사용안전 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "작업발판 설치 및 사용안전 지침.pdf"; sourceTree = "<group>"; };
+		66F60C6A2DE5D6F00002F78E /* 작업의자형 달비계 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "작업의자형 달비계 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C6B2DE5D6F00002F78E /* 재사용 가설기자재 성능기준에 관한 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "재사용 가설기자재 성능기준에 관한 지침.pdf"; sourceTree = "<group>"; };
+		66F60C6C2DE5D6F00002F78E /* 조경공사(수목식재작업) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "조경공사(수목식재작업) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C6D2DE5D6F00002F78E /* 조적공사 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "조적공사 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C6E2DE5D6F00002F78E /* 중소규모 건설업체 본사의 안전보건관리에 관한 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "중소규모 건설업체 본사의 안전보건관리에 관한 지침.pdf"; sourceTree = "<group>"; };
+		66F60C6F2DE5D6F00002F78E /* 중소규모 관로공사의 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "중소규모 관로공사의 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C702DE5D6F00002F78E /* 지붕공사 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "지붕공사 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C712DE5D6F00002F78E /* 지하매설물 굴착공사 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "지하매설물 굴착공사 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C722DE5D6F00002F78E /* 철골공사 무지보 거푸집동바리(데크플레이트 공법)안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "철골공사 무지보 거푸집동바리(데크플레이트 공법)안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C732DE5D6F00002F78E /* 철골공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "철골공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C742DE5D6F00002F78E /* 철탑공사 안전보건기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "철탑공사 안전보건기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C752DE5D6F00002F78E /* 초고층 건축물공사(일반사항) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "초고층 건축물공사(일반사항) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C762DE5D6F00002F78E /* 초고층 건축물공사(화재예방) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "초고층 건축물공사(화재예방) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C772DE5D6F00002F78E /* 추락방호망 설치 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "추락방호망 설치 지침.pdf"; sourceTree = "<group>"; };
+		66F60C782DE5D6F00002F78E /* 취약시기 건설현장 안전작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "취약시기 건설현장 안전작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C792DE5D6F00002F78E /* 콘크리트공사의 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "콘크리트공사의 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C7A2DE5D6F00002F78E /* 타워크레인 설치, 조립, 해체 작업계획서 작성지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "타워크레인 설치, 조립, 해체 작업계획서 작성지침.pdf"; sourceTree = "<group>"; };
+		66F60C7B2DE5D6F00002F78E /* 타일(Tile) 공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "타일(Tile) 공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C7C2DE5D6F00002F78E /* 탑다운(Top down) 공법 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "탑다운(Top down) 공법 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C7D2DE5D6F00002F78E /* 터널공사(NATM공법) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "터널공사(NATM공법) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C7E2DE5D6F00002F78E /* 터널공사(NTR공법) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "터널공사(NTR공법) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C7F2DE5D6F00002F78E /* 터널공사(Shield-T.B.M공법) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "터널공사(Shield-T.B.M공법) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C802DE5D6F00002F78E /* 터널공사(침매공법) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "터널공사(침매공법) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C812DE5D6F00002F78E /* 터널공사(프론트잭킹) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "터널공사(프론트잭킹) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C822DE5D6F00002F78E /* 트러스거더 교량공사 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "트러스거더 교량공사 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C832DE5D6F00002F78E /* 트럭 탑재형 크레인(Cago crane) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "트럭 탑재형 크레인(Cago crane) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C842DE5D6F00002F78E /* 파이프 서포트 동바리 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "파이프 서포트 동바리 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C852DE5D6F00002F78E /* 프리스트레스트 콘크리트(PSC) 교량공사 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "프리스트레스트 콘크리트(PSC) 교량공사 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C862DE5D6F00002F78E /* 프리캐스트 콘크리트 건축구조물 조립 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "프리캐스트 콘크리트 건축구조물 조립 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C872DE5D6F00002F78E /* 항타기, 항발기 사용 작업계획서 작성지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "항타기, 항발기 사용 작업계획서 작성지침.pdf"; sourceTree = "<group>"; };
+		66F60C882DE5D6F00002F78E /* 해상 RCD 현장타설 말뚝공사(현수교, 사장교) 안전작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "해상 RCD 현장타설 말뚝공사(현수교, 사장교) 안전작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C892DE5D6F00002F78E /* 해체공사 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "해체공사 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C8A2DE5D6F00002F78E /* 현수교 교량공사 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "현수교 교량공사 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C8B2DE5D6F00002F78E /* 현수교 주탑시공 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "현수교 주탑시공 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C8C2DE5D6F00002F78E /* 화학플랜트 개보수 공사 안전보건작업 기술지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "화학플랜트 개보수 공사 안전보건작업 기술지침.pdf"; sourceTree = "<group>"; };
+		66F60C8D2DE5D6F00002F78E /* 흙막이공사 (SCW 공법) 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사 (SCW 공법) 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C8E2DE5D6F00002F78E /* 흙막이공사(C.I.P공법) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사(C.I.P공법) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C8F2DE5D6F00002F78E /* 흙막이공사(Earth Anchor 공법) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사(Earth Anchor 공법) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C902DE5D6F00002F78E /* 흙막이공사(Soil Nailing 공법) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사(Soil Nailing 공법) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C912DE5D6F00002F78E /* 흙막이공사(강널말뚝, Sheet Pile)의 안전보건작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사(강널말뚝, Sheet Pile)의 안전보건작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C922DE5D6F00002F78E /* 흙막이공사(띠장긴장공법, Prestressed Wale Method) 안전보건 작업지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사(띠장긴장공법, Prestressed Wale Method) 안전보건 작업지침.pdf"; sourceTree = "<group>"; };
+		66F60C932DE5D6F00002F78E /* 흙막이공사(엄지말뚝 공법) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사(엄지말뚝 공법) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C942DE5D6F00002F78E /* 흙막이공사(지하연속벽) 안전보건작업 지침.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "흙막이공사(지하연속벽) 안전보건작업 지침.pdf"; sourceTree = "<group>"; };
+		66F60C972DE5D6F00002F78E /* index.faiss */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.faiss; sourceTree = "<group>"; };
+		66F60C982DE5D6F00002F78E /* index.pkl */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.pkl; sourceTree = "<group>"; };
+		66F6715C2DE5D6F00002F78E /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		66F6715D2DE5D6F00002F78E /* requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
+		66F6715F2DE5D6F00002F78E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F671602DE5D6F00002F78E /* Chatbot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatbot.swift; sourceTree = "<group>"; };
+		66F671612DE5D6F00002F78E /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		66F671622DE5D6F00002F78E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		66F671632DE5D6F00002F78E /* COREXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COREXApp.swift; sourceTree = "<group>"; };
+		66F671642DE5D6F00002F78E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		66F671652DE5D6F00002F78E /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		66F60C032DE5D6620002F78E /* COREXTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = COREXTests;
+			sourceTree = "<group>";
+		};
+		66F60C0D2DE5D6620002F78E /* COREXUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = COREXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F60BF02DE5D65F0002F78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F60BFD2DE5D6620002F78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F60C072DE5D6620002F78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F60BEA2DE5D65F0002F78E = {
+			isa = PBXGroup;
+			children = (
+				66F60C032DE5D6620002F78E /* COREXTests */,
+				66F60C0D2DE5D6620002F78E /* COREXUITests */,
+				66F60BF42DE5D65F0002F78E /* Products */,
+				66F6715E2DE5D6F00002F78E /* backend */,
+				66F671662DE5D6F00002F78E /* frontend */,
+			);
+			sourceTree = "<group>";
+		};
+		66F60BF42DE5D65F0002F78E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F60BF32DE5D65F0002F78E /* COREX.app */,
+				66F60C002DE5D6620002F78E /* COREXTests.xctest */,
+				66F60C0A2DE5D6620002F78E /* COREXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F60C272DE5D6F00002F78E /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				66F60C232DE5D6F00002F78E /* api.cpython-311.pyc */,
+				66F60C242DE5D6F00002F78E /* config.cpython-311.pyc */,
+				66F60C252DE5D6F00002F78E /* main.cpython-311.pyc */,
+				66F60C262DE5D6F00002F78E /* rag_engine.cpython-311.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		66F60C2C2DE5D6F00002F78E /* app */ = {
+			isa = PBXGroup;
+			children = (
+				66F60C272DE5D6F00002F78E /* __pycache__ */,
+				66F60C282DE5D6F00002F78E /* api.py */,
+				66F60C292DE5D6F00002F78E /* config.py */,
+				66F60C2A2DE5D6F00002F78E /* pdf_loader.py */,
+				66F60C2B2DE5D6F00002F78E /* rag_engine.py */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		66F60C952DE5D6F00002F78E /* manuals */ = {
+			isa = PBXGroup;
+			children = (
+				66F60C2D2DE5D6F00002F78E /* F.C.M 교량공사 안전보건작업 지침.pdf */,
+				66F60C2E2DE5D6F00002F78E /* I.L.M 교량공사 안전보건작업 지침.pdf */,
+				66F60C2F2DE5D6F00002F78E /* PCT거더 교량공사 안전보건작업지침.pdf */,
+				66F60C302DE5D6F00002F78E /* 가공송전선로 철탑 심형기초공사 안전보건작업 지침.pdf */,
+				66F60C312DE5D6F00002F78E /* 가설계단 설치 및 사용 안전보건작업 지침.pdf */,
+				66F60C322DE5D6F00002F78E /* 가설구조물의 설계변경 요청 내용, 절차 등에 관한 작성지침.pdf */,
+				66F60C332DE5D6F00002F78E /* 강관비계 안전작업지침.pdf */,
+				66F60C342DE5D6F00002F78E /* 강박스거더 교량공사 안전보건작업 지침.pdf */,
+				66F60C352DE5D6F00002F78E /* 강아치교(벤트공법) 안전보건작업지침.pdf */,
+				66F60C362DE5D6F00002F78E /* 갱폼(Gang form) 제작 및 사용안전 지침.pdf */,
+				66F60C372DE5D6F00002F78E /* 건설공사 굴착면 안전기울기 기준에 관한 기술지침.pdf */,
+				66F60C382DE5D6F00002F78E /* 건설공사 돌관작업 안전보건작업 지침.pdf */,
+				66F60C392DE5D6F00002F78E /* 건설공사 안전보건 설계 지침.pdf */,
+				66F60C3A2DE5D6F00002F78E /* 건설공사의 고소작업대 안전보건작업지침.pdf */,
+				66F60C3B2DE5D6F00002F78E /* 건설기계 안전보건작업 지침.pdf */,
+				66F60C3C2DE5D6F00002F78E /* 건설현장 용접용단 안전보건작업 기술지침.pdf */,
+				66F60C3D2DE5D6F00002F78E /* 건설현장의 중량물 취급 작업계획서(이동식크레인) 작성지침.pdf */,
+				66F60C3E2DE5D6F00002F78E /* 건축물의 석공사(내외장) 안전보건작업 기술지침.pdf */,
+				66F60C3F2DE5D6F00002F78E /* 경량철골 천장공사 안전보건작업 지침.pdf */,
+				66F60C402DE5D6F00002F78E /* 곤돌라(Gondola) 안전보건작업 지침.pdf */,
+				66F60C412DE5D6F00002F78E /* 관로매설공사 안전보건작업 기술지침.pdf */,
+				66F60C422DE5D6F00002F78E /* 관로매설공사(유압식 추진공법) 안전보건작업 지침.pdf */,
+				66F60C432DE5D6F00002F78E /* 교량 슬래브거푸집 해체용 작업대차 안전작업 지침.pdf */,
+				66F60C442DE5D6F00002F78E /* 교량공사(P.S.M공법) 안전작업 지침.pdf */,
+				66F60C452DE5D6F00002F78E /* 교량공사(라멘교) 안전보건작업지침.pdf */,
+				66F60C462DE5D6F00002F78E /* 교량공사의 이동식 비계공법(MSS) 안전작업 지침.pdf */,
+				66F60C472DE5D6F00002F78E /* 굴착공사 계측관리 기술지침.pdf */,
+				66F60C482DE5D6F00002F78E /* 굴착공사 안전작업 지침.pdf */,
+				66F60C492DE5D6F00002F78E /* 굴착기 안전보건작업 지침.pdf */,
+				66F60C4A2DE5D6F00002F78E /* 금속 커튼월(Curtain wall) 안전작업 지침.pdf */,
+				66F60C4B2DE5D6F00002F78E /* 기성 콘크리트 파일 항타 안전보건작업 지침.pdf */,
+				66F60C4C2DE5D6F00002F78E /* 낙하물 방지망 설치 지침.pdf */,
+				66F60C4D2DE5D6F00002F78E /* 낙하물 방호선반 설치 지침.pdf */,
+				66F60C4E2DE5D6F00002F78E /* 내장공사의 안전보건작업 지침.pdf */,
+				66F60C4F2DE5D6F00002F78E /* 냉동냉장 물류창고 단열공사 화재예방 안전보건작업 지침.pdf */,
+				66F60C502DE5D6F00002F78E /* 단순 슬래브 콘크리트 타설 안전보건작업 지침.pdf */,
+				66F60C512DE5D6F00002F78E /* 덤프트럭 및 화물자동차 안전작업지침.pdf */,
+				66F60C522DE5D6F00002F78E /* 리모델링 안전보건작업 기술지침.pdf */,
+				66F60C532DE5D6F00002F78E /* 미장공사 안전보건작업 지침.pdf */,
+				66F60C542DE5D6F00002F78E /* 밀폐공간의 방수공사 안전보건작업 지침.pdf */,
+				66F60C552DE5D6F00002F78E /* 발파공사 안전보건작업 지침.pdf */,
+				66F60C562DE5D6F00002F78E /* 블록식 보강토 옹벽 공사 안전보건작업 지침.pdf */,
+				66F60C572DE5D6F00002F78E /* 사장교 교량공사 안전보건작업 지침.pdf */,
+				66F60C582DE5D6F00002F78E /* 소규모 철근콘크리트 교량공사 거푸집 동바리 안전작업 지침.pdf */,
+				66F60C592DE5D6F00002F78E /* 수상 바지(Barge)선 이용 건설공사 안전작업 지침.pdf */,
+				66F60C5A2DE5D6F00002F78E /* 수직보호망 설치 지침.pdf */,
+				66F60C5B2DE5D6F00002F78E /* 수직형 추락방망 설치 기술지침.pdf */,
+				66F60C5C2DE5D6F00002F78E /* 슬립폼(Slip form) 안전작업 지침.pdf */,
+				66F60C5D2DE5D6F00002F78E /* 시스템 동바리 안전작업 지침.pdf */,
+				66F60C5E2DE5D6F00002F78E /* 시스템 비계 안전작업 지침.pdf */,
+				66F60C5F2DE5D6F00002F78E /* 시스템폼(RCS폼,ACS폼 중심) 안전작업 지침.pdf */,
+				66F60C602DE5D6F00002F78E /* 시트(Sheet)방수 안전보건작업 지침.pdf */,
+				66F60C612DE5D6F00002F78E /* 아스팔트콘크리트 포장공사 안전보건작업 지침.pdf */,
+				66F60C622DE5D6F00002F78E /* 안전대 사용지침.pdf */,
+				66F60C632DE5D6F00002F78E /* 야간 건설공사 안전보건작업 지침.pdf */,
+				66F60C642DE5D6F00002F78E /* 옹벽(콘크리트 옹벽)공사의 안전보건작업지침.pdf */,
+				66F60C652DE5D6F00002F78E /* 우물통기초 안전보건 작업지침.pdf */,
+				66F60C662DE5D6F00002F78E /* 이동식 비계 설치 및 사용안전 기술지침.pdf */,
+				66F60C672DE5D6F00002F78E /* 이동식 크레인 안전보건작업 지침.pdf */,
+				66F60C682DE5D6F00002F78E /* 이동식 크레인 양중작업의 안정성 검토 지침.pdf */,
+				66F60C692DE5D6F00002F78E /* 작업발판 설치 및 사용안전 지침.pdf */,
+				66F60C6A2DE5D6F00002F78E /* 작업의자형 달비계 안전작업 지침.pdf */,
+				66F60C6B2DE5D6F00002F78E /* 재사용 가설기자재 성능기준에 관한 지침.pdf */,
+				66F60C6C2DE5D6F00002F78E /* 조경공사(수목식재작업) 안전보건작업지침.pdf */,
+				66F60C6D2DE5D6F00002F78E /* 조적공사 안전보건작업 기술지침.pdf */,
+				66F60C6E2DE5D6F00002F78E /* 중소규모 건설업체 본사의 안전보건관리에 관한 지침.pdf */,
+				66F60C6F2DE5D6F00002F78E /* 중소규모 관로공사의 안전보건작업지침.pdf */,
+				66F60C702DE5D6F00002F78E /* 지붕공사 안전보건작업 기술지침.pdf */,
+				66F60C712DE5D6F00002F78E /* 지하매설물 굴착공사 안전작업 지침.pdf */,
+				66F60C722DE5D6F00002F78E /* 철골공사 무지보 거푸집동바리(데크플레이트 공법)안전보건작업 지침.pdf */,
+				66F60C732DE5D6F00002F78E /* 철골공사 안전보건작업 지침.pdf */,
+				66F60C742DE5D6F00002F78E /* 철탑공사 안전보건기술지침.pdf */,
+				66F60C752DE5D6F00002F78E /* 초고층 건축물공사(일반사항) 안전보건작업지침.pdf */,
+				66F60C762DE5D6F00002F78E /* 초고층 건축물공사(화재예방) 안전보건작업지침.pdf */,
+				66F60C772DE5D6F00002F78E /* 추락방호망 설치 지침.pdf */,
+				66F60C782DE5D6F00002F78E /* 취약시기 건설현장 안전작업지침.pdf */,
+				66F60C792DE5D6F00002F78E /* 콘크리트공사의 안전보건작업 지침.pdf */,
+				66F60C7A2DE5D6F00002F78E /* 타워크레인 설치, 조립, 해체 작업계획서 작성지침.pdf */,
+				66F60C7B2DE5D6F00002F78E /* 타일(Tile) 공사 안전보건작업 지침.pdf */,
+				66F60C7C2DE5D6F00002F78E /* 탑다운(Top down) 공법 안전작업 지침.pdf */,
+				66F60C7D2DE5D6F00002F78E /* 터널공사(NATM공법) 안전보건작업 지침.pdf */,
+				66F60C7E2DE5D6F00002F78E /* 터널공사(NTR공법) 안전보건작업지침.pdf */,
+				66F60C7F2DE5D6F00002F78E /* 터널공사(Shield-T.B.M공법) 안전보건작업 지침.pdf */,
+				66F60C802DE5D6F00002F78E /* 터널공사(침매공법) 안전보건작업지침.pdf */,
+				66F60C812DE5D6F00002F78E /* 터널공사(프론트잭킹) 안전보건작업지침.pdf */,
+				66F60C822DE5D6F00002F78E /* 트러스거더 교량공사 안전보건작업지침.pdf */,
+				66F60C832DE5D6F00002F78E /* 트럭 탑재형 크레인(Cago crane) 안전보건작업지침.pdf */,
+				66F60C842DE5D6F00002F78E /* 파이프 서포트 동바리 안전작업 지침.pdf */,
+				66F60C852DE5D6F00002F78E /* 프리스트레스트 콘크리트(PSC) 교량공사 안전작업 지침.pdf */,
+				66F60C862DE5D6F00002F78E /* 프리캐스트 콘크리트 건축구조물 조립 안전보건작업 지침.pdf */,
+				66F60C872DE5D6F00002F78E /* 항타기, 항발기 사용 작업계획서 작성지침.pdf */,
+				66F60C882DE5D6F00002F78E /* 해상 RCD 현장타설 말뚝공사(현수교, 사장교) 안전작업 지침.pdf */,
+				66F60C892DE5D6F00002F78E /* 해체공사 안전보건작업 기술지침.pdf */,
+				66F60C8A2DE5D6F00002F78E /* 현수교 교량공사 안전보건작업 지침.pdf */,
+				66F60C8B2DE5D6F00002F78E /* 현수교 주탑시공 안전보건작업지침.pdf */,
+				66F60C8C2DE5D6F00002F78E /* 화학플랜트 개보수 공사 안전보건작업 기술지침.pdf */,
+				66F60C8D2DE5D6F00002F78E /* 흙막이공사 (SCW 공법) 안전보건작업지침.pdf */,
+				66F60C8E2DE5D6F00002F78E /* 흙막이공사(C.I.P공법) 안전보건작업 지침.pdf */,
+				66F60C8F2DE5D6F00002F78E /* 흙막이공사(Earth Anchor 공법) 안전보건작업 지침.pdf */,
+				66F60C902DE5D6F00002F78E /* 흙막이공사(Soil Nailing 공법) 안전보건작업 지침.pdf */,
+				66F60C912DE5D6F00002F78E /* 흙막이공사(강널말뚝, Sheet Pile)의 안전보건작업지침.pdf */,
+				66F60C922DE5D6F00002F78E /* 흙막이공사(띠장긴장공법, Prestressed Wale Method) 안전보건 작업지침.pdf */,
+				66F60C932DE5D6F00002F78E /* 흙막이공사(엄지말뚝 공법) 안전보건작업 지침.pdf */,
+				66F60C942DE5D6F00002F78E /* 흙막이공사(지하연속벽) 안전보건작업 지침.pdf */,
+			);
+			path = manuals;
+			sourceTree = "<group>";
+		};
+		66F60C962DE5D6F00002F78E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				66F60C952DE5D6F00002F78E /* manuals */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		66F60C992DE5D6F00002F78E /* faiss_index */ = {
+			isa = PBXGroup;
+			children = (
+				66F60C972DE5D6F00002F78E /* index.faiss */,
+				66F60C982DE5D6F00002F78E /* index.pkl */,
+			);
+			path = faiss_index;
+			sourceTree = "<group>";
+		};
+		66F60C9A2DE5D6F00002F78E /* db */ = {
+			isa = PBXGroup;
+			children = (
+				66F60C992DE5D6F00002F78E /* faiss_index */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		66F6715E2DE5D6F00002F78E /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				66F60C2C2DE5D6F00002F78E /* app */,
+				66F60C962DE5D6F00002F78E /* data */,
+				66F60C9A2DE5D6F00002F78E /* db */,
+				66F6715C2DE5D6F00002F78E /* main.py */,
+				66F6715D2DE5D6F00002F78E /* requirements.txt */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		66F671662DE5D6F00002F78E /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				66F6715F2DE5D6F00002F78E /* Assets.xcassets */,
+				66F671602DE5D6F00002F78E /* Chatbot.swift */,
+				66F671612DE5D6F00002F78E /* ChatMessage.swift */,
+				66F671622DE5D6F00002F78E /* ChatView.swift */,
+				66F671632DE5D6F00002F78E /* COREXApp.swift */,
+				66F671642DE5D6F00002F78E /* MainView.swift */,
+				66F671652DE5D6F00002F78E /* MessageBubble.swift */,
+			);
+			path = frontend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F60BF22DE5D65F0002F78E /* COREX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F60C142DE5D6620002F78E /* Build configuration list for PBXNativeTarget "COREX" */;
+			buildPhases = (
+				66F60BEF2DE5D65F0002F78E /* Sources */,
+				66F60BF02DE5D65F0002F78E /* Frameworks */,
+				66F60BF12DE5D65F0002F78E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COREX;
+			packageProductDependencies = (
+			);
+			productName = COREX;
+			productReference = 66F60BF32DE5D65F0002F78E /* COREX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F60BFF2DE5D6620002F78E /* COREXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F60C172DE5D6620002F78E /* Build configuration list for PBXNativeTarget "COREXTests" */;
+			buildPhases = (
+				66F60BFC2DE5D6620002F78E /* Sources */,
+				66F60BFD2DE5D6620002F78E /* Frameworks */,
+				66F60BFE2DE5D6620002F78E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F60C022DE5D6620002F78E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66F60C032DE5D6620002F78E /* COREXTests */,
+			);
+			name = COREXTests;
+			packageProductDependencies = (
+			);
+			productName = COREXTests;
+			productReference = 66F60C002DE5D6620002F78E /* COREXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66F60C092DE5D6620002F78E /* COREXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F60C1A2DE5D6620002F78E /* Build configuration list for PBXNativeTarget "COREXUITests" */;
+			buildPhases = (
+				66F60C062DE5D6620002F78E /* Sources */,
+				66F60C072DE5D6620002F78E /* Frameworks */,
+				66F60C082DE5D6620002F78E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F60C0C2DE5D6620002F78E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66F60C0D2DE5D6620002F78E /* COREXUITests */,
+			);
+			name = COREXUITests;
+			packageProductDependencies = (
+			);
+			productName = COREXUITests;
+			productReference = 66F60C0A2DE5D6620002F78E /* COREXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F60BEB2DE5D65F0002F78E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					66F60BF22DE5D65F0002F78E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					66F60BFF2DE5D6620002F78E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66F60BF22DE5D65F0002F78E;
+					};
+					66F60C092DE5D6620002F78E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66F60BF22DE5D65F0002F78E;
+					};
+				};
+			};
+			buildConfigurationList = 66F60BEE2DE5D65F0002F78E /* Build configuration list for PBXProject "COREX" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F60BEA2DE5D65F0002F78E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 66F60BF42DE5D65F0002F78E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F60BF22DE5D65F0002F78E /* COREX */,
+				66F60BFF2DE5D6620002F78E /* COREXTests */,
+				66F60C092DE5D6620002F78E /* COREXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F60BF12DE5D65F0002F78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F6737F2DE5D6F60002F78E /* 해체공사 안전보건작업 기술지침.pdf in Resources */,
+				66F673EC2DE5D6F60002F78E /* 터널공사(NTR공법) 안전보건작업지침.pdf in Resources */,
+				66F674132DE5D6F60002F78E /* 낙하물 방지망 설치 지침.pdf in Resources */,
+				66F676882DE5D6F60002F78E /* 흙막이공사(띠장긴장공법, Prestressed Wale Method) 안전보건 작업지침.pdf in Resources */,
+				66F676B62DE5D6F60002F78E /* 굴착공사 계측관리 기술지침.pdf in Resources */,
+				66F677812DE5D6F60002F78E /* 철골공사 안전보건작업 지침.pdf in Resources */,
+				66F677D92DE5D6F60002F78E /* 흙막이공사(C.I.P공법) 안전보건작업 지침.pdf in Resources */,
+				66F6781A2DE5D6F60002F78E /* 현수교 주탑시공 안전보건작업지침.pdf in Resources */,
+				66F678212DE5D6F60002F78E /* 시트(Sheet)방수 안전보건작업 지침.pdf in Resources */,
+				66F678E72DE5D6F60002F78E /* requirements.txt in Resources */,
+				66F679AB2DE5D6F60002F78E /* 강아치교(벤트공법) 안전보건작업지침.pdf in Resources */,
+				66F67A5C2DE5D6F60002F78E /* 작업의자형 달비계 안전작업 지침.pdf in Resources */,
+				66F67B7A2DE5D6F60002F78E /* 터널공사(침매공법) 안전보건작업지침.pdf in Resources */,
+				66F67C162DE5D6F60002F78E /* 건설공사의 고소작업대 안전보건작업지침.pdf in Resources */,
+				66F67D222DE5D6F60002F78E /* 건설공사 굴착면 안전기울기 기준에 관한 기술지침.pdf in Resources */,
+				66F6802D2DE5D6F60002F78E /* 블록식 보강토 옹벽 공사 안전보건작업 지침.pdf in Resources */,
+				66F680962DE5D6F60002F78E /* 터널공사(NATM공법) 안전보건작업 지침.pdf in Resources */,
+				66F683F62DE5D6F60002F78E /* I.L.M 교량공사 안전보건작업 지침.pdf in Resources */,
+				66F684CE2DE5D6F60002F78E /* 리모델링 안전보건작업 기술지침.pdf in Resources */,
+				66F684F62DE5D6F60002F78E /* 취약시기 건설현장 안전작업지침.pdf in Resources */,
+				66F6851D2DE5D6F60002F78E /* 작업발판 설치 및 사용안전 지침.pdf in Resources */,
+				66F685262DE5D6F60002F78E /* 항타기, 항발기 사용 작업계획서 작성지침.pdf in Resources */,
+				66F685CB2DE5D6F60002F78E /* 옹벽(콘크리트 옹벽)공사의 안전보건작업지침.pdf in Resources */,
+				66F686202DE5D6F60002F78E /* 파이프 서포트 동바리 안전작업 지침.pdf in Resources */,
+				66F6875D2DE5D6F60002F78E /* 탑다운(Top down) 공법 안전작업 지침.pdf in Resources */,
+				66F687722DE5D6F60002F78E /* api.py in Resources */,
+				66F687882DE5D6F60002F78E /* 지붕공사 안전보건작업 기술지침.pdf in Resources */,
+				66F688192DE5D6F60002F78E /* 교량공사(라멘교) 안전보건작업지침.pdf in Resources */,
+				66F688312DE5D6F60002F78E /* 타워크레인 설치, 조립, 해체 작업계획서 작성지침.pdf in Resources */,
+				66F6895A2DE5D6F60002F78E /* rag_engine.py in Resources */,
+				66F68ABE2DE5D6F60002F78E /* 트러스거더 교량공사 안전보건작업지침.pdf in Resources */,
+				66F68B322DE5D6F60002F78E /* 미장공사 안전보건작업 지침.pdf in Resources */,
+				66F68C722DE5D6F60002F78E /* 해상 RCD 현장타설 말뚝공사(현수교, 사장교) 안전작업 지침.pdf in Resources */,
+				66F690022DE5D6F60002F78E /* 기성 콘크리트 파일 항타 안전보건작업 지침.pdf in Resources */,
+				66F690252DE5D6F60002F78E /* config.cpython-311.pyc in Resources */,
+				66F6906A2DE5D6F60002F78E /* Assets.xcassets in Resources */,
+				66F690AD2DE5D6F60002F78E /* 소규모 철근콘크리트 교량공사 거푸집 동바리 안전작업 지침.pdf in Resources */,
+				66F690C92DE5D6F60002F78E /* 이동식 비계 설치 및 사용안전 기술지침.pdf in Resources */,
+				66F690D62DE5D6F60002F78E /* api.cpython-311.pyc in Resources */,
+				66F690F22DE5D6F60002F78E /* 갱폼(Gang form) 제작 및 사용안전 지침.pdf in Resources */,
+				66F691E22DE5D6F60002F78E /* 화학플랜트 개보수 공사 안전보건작업 기술지침.pdf in Resources */,
+				66F6926A2DE5D6F60002F78E /* 이동식 크레인 양중작업의 안정성 검토 지침.pdf in Resources */,
+				66F692A72DE5D6F60002F78E /* 안전대 사용지침.pdf in Resources */,
+				66F693F12DE5D6F60002F78E /* 건축물의 석공사(내외장) 안전보건작업 기술지침.pdf in Resources */,
+				66F694302DE5D6F60002F78E /* 덤프트럭 및 화물자동차 안전작업지침.pdf in Resources */,
+				66F694702DE5D6F60002F78E /* 초고층 건축물공사(일반사항) 안전보건작업지침.pdf in Resources */,
+				66F695D32DE5D6F60002F78E /* 수직보호망 설치 지침.pdf in Resources */,
+				66F695F42DE5D6F60002F78E /* 조경공사(수목식재작업) 안전보건작업지침.pdf in Resources */,
+				66F698812DE5D6F60002F78E /* 가공송전선로 철탑 심형기초공사 안전보건작업 지침.pdf in Resources */,
+				66F699062DE5D6F60002F78E /* 내장공사의 안전보건작업 지침.pdf in Resources */,
+				66F699472DE5D6F60002F78E /* 곤돌라(Gondola) 안전보건작업 지침.pdf in Resources */,
+				66F69A102DE5D6F60002F78E /* 건설현장 용접용단 안전보건작업 기술지침.pdf in Resources */,
+				66F69AB32DE5D6F60002F78E /* 프리스트레스트 콘크리트(PSC) 교량공사 안전작업 지침.pdf in Resources */,
+				66F69AC22DE5D6F60002F78E /* 시스템 동바리 안전작업 지침.pdf in Resources */,
+				66F69C252DE5D6F60002F78E /* 흙막이공사(엄지말뚝 공법) 안전보건작업 지침.pdf in Resources */,
+				66F69CE42DE5D6F60002F78E /* 밀폐공간의 방수공사 안전보건작업 지침.pdf in Resources */,
+				66F69D642DE5D6F60002F78E /* index.pkl in Resources */,
+				66F69E5B2DE5D6F60002F78E /* 야간 건설공사 안전보건작업 지침.pdf in Resources */,
+				66F69E682DE5D6F60002F78E /* 재사용 가설기자재 성능기준에 관한 지침.pdf in Resources */,
+				66F69FE22DE5D6F60002F78E /* 트럭 탑재형 크레인(Cago crane) 안전보건작업지침.pdf in Resources */,
+				66F6A02C2DE5D6F60002F78E /* 철탑공사 안전보건기술지침.pdf in Resources */,
+				66F6A0EC2DE5D6F60002F78E /* 철골공사 무지보 거푸집동바리(데크플레이트 공법)안전보건작업 지침.pdf in Resources */,
+				66F6A1462DE5D6F60002F78E /* 금속 커튼월(Curtain wall) 안전작업 지침.pdf in Resources */,
+				66F6A1902DE5D6F60002F78E /* pdf_loader.py in Resources */,
+				66F6A3212DE5D6F60002F78E /* 조적공사 안전보건작업 기술지침.pdf in Resources */,
+				66F6A3322DE5D6F60002F78E /* index.faiss in Resources */,
+				66F6A4512DE5D6F60002F78E /* 초고층 건축물공사(화재예방) 안전보건작업지침.pdf in Resources */,
+				66F6A50A2DE5D6F60002F78E /* 흙막이공사(Earth Anchor 공법) 안전보건작업 지침.pdf in Resources */,
+				66F6A73A2DE5D6F60002F78E /* config.py in Resources */,
+				66F6A8452DE5D6F60002F78E /* 흙막이공사(Soil Nailing 공법) 안전보건작업 지침.pdf in Resources */,
+				66F6A8E92DE5D6F60002F78E /* 관로매설공사(유압식 추진공법) 안전보건작업 지침.pdf in Resources */,
+				66F6A9462DE5D6F60002F78E /* 현수교 교량공사 안전보건작업 지침.pdf in Resources */,
+				66F6A9582DE5D6F60002F78E /* 지하매설물 굴착공사 안전작업 지침.pdf in Resources */,
+				66F6AA312DE5D6F60002F78E /* 건설공사 돌관작업 안전보건작업 지침.pdf in Resources */,
+				66F6AB2D2DE5D6F60002F78E /* 강관비계 안전작업지침.pdf in Resources */,
+				66F6AED22DE5D6F60002F78E /* 경량철골 천장공사 안전보건작업 지침.pdf in Resources */,
+				66F6AF032DE5D6F60002F78E /* 시스템폼(RCS폼,ACS폼 중심) 안전작업 지침.pdf in Resources */,
+				66F6AFB82DE5D6F60002F78E /* 슬립폼(Slip form) 안전작업 지침.pdf in Resources */,
+				66F6B08D2DE5D6F60002F78E /* 건설기계 안전보건작업 지침.pdf in Resources */,
+				66F6B0B52DE5D6F60002F78E /* 교량공사의 이동식 비계공법(MSS) 안전작업 지침.pdf in Resources */,
+				66F6B1082DE5D6F60002F78E /* 낙하물 방호선반 설치 지침.pdf in Resources */,
+				66F6B11A2DE5D6F60002F78E /* 교량공사(P.S.M공법) 안전작업 지침.pdf in Resources */,
+				66F6B21A2DE5D6F60002F78E /* 우물통기초 안전보건 작업지침.pdf in Resources */,
+				66F6B2E42DE5D6F60002F78E /* 이동식 크레인 안전보건작업 지침.pdf in Resources */,
+				66F6B30F2DE5D6F60002F78E /* main.cpython-311.pyc in Resources */,
+				66F6B3252DE5D6F60002F78E /* rag_engine.cpython-311.pyc in Resources */,
+				66F6B3E32DE5D6F60002F78E /* 터널공사(Shield-T.B.M공법) 안전보건작업 지침.pdf in Resources */,
+				66F6B44F2DE5D6F60002F78E /* 강박스거더 교량공사 안전보건작업 지침.pdf in Resources */,
+				66F6B4DB2DE5D6F60002F78E /* 터널공사(프론트잭킹) 안전보건작업지침.pdf in Resources */,
+				66F6B6D22DE5D6F70002F78E /* 흙막이공사(강널말뚝, Sheet Pile)의 안전보건작업지침.pdf in Resources */,
+				66F6B6EB2DE5D6F70002F78E /* main.py in Resources */,
+				66F6B74C2DE5D6F70002F78E /* 콘크리트공사의 안전보건작업 지침.pdf in Resources */,
+				66F6B7892DE5D6F70002F78E /* 교량 슬래브거푸집 해체용 작업대차 안전작업 지침.pdf in Resources */,
+				66F6B8512DE5D6F70002F78E /* 흙막이공사 (SCW 공법) 안전보건작업지침.pdf in Resources */,
+				66F6BBC52DE5D6F70002F78E /* 가설구조물의 설계변경 요청 내용, 절차 등에 관한 작성지침.pdf in Resources */,
+				66F6BC8A2DE5D6F70002F78E /* 발파공사 안전보건작업 지침.pdf in Resources */,
+				66F6BD122DE5D6F70002F78E /* 중소규모 건설업체 본사의 안전보건관리에 관한 지침.pdf in Resources */,
+				66F6BE9B2DE5D6F70002F78E /* 건설현장의 중량물 취급 작업계획서(이동식크레인) 작성지침.pdf in Resources */,
+				66F6BF042DE5D6F70002F78E /* 아스팔트콘크리트 포장공사 안전보건작업 지침.pdf in Resources */,
+				66F6BFC92DE5D6F70002F78E /* 수상 바지(Barge)선 이용 건설공사 안전작업 지침.pdf in Resources */,
+				66F6C11D2DE5D6F70002F78E /* 수직형 추락방망 설치 기술지침.pdf in Resources */,
+				66F6C27B2DE5D6F70002F78E /* 냉동냉장 물류창고 단열공사 화재예방 안전보건작업 지침.pdf in Resources */,
+				66F6C2B92DE5D6F70002F78E /* 타일(Tile) 공사 안전보건작업 지침.pdf in Resources */,
+				66F6C3CB2DE5D6F70002F78E /* F.C.M 교량공사 안전보건작업 지침.pdf in Resources */,
+				66F6C4D12DE5D6F70002F78E /* 단순 슬래브 콘크리트 타설 안전보건작업 지침.pdf in Resources */,
+				66F6C5012DE5D6F70002F78E /* 추락방호망 설치 지침.pdf in Resources */,
+				66F6C5812DE5D6F70002F78E /* 프리캐스트 콘크리트 건축구조물 조립 안전보건작업 지침.pdf in Resources */,
+				66F6C75A2DE5D6F70002F78E /* 사장교 교량공사 안전보건작업 지침.pdf in Resources */,
+				66F6C7642DE5D6F70002F78E /* 가설계단 설치 및 사용 안전보건작업 지침.pdf in Resources */,
+				66F6C7872DE5D6F70002F78E /* 관로매설공사 안전보건작업 기술지침.pdf in Resources */,
+				66F6C7952DE5D6F70002F78E /* 굴착기 안전보건작업 지침.pdf in Resources */,
+				66F6C8662DE5D6F70002F78E /* PCT거더 교량공사 안전보건작업지침.pdf in Resources */,
+				66F6C9142DE5D6F70002F78E /* 굴착공사 안전작업 지침.pdf in Resources */,
+				66F6C94C2DE5D6F70002F78E /* 시스템 비계 안전작업 지침.pdf in Resources */,
+				66F6C96C2DE5D6F70002F78E /* 건설공사 안전보건 설계 지침.pdf in Resources */,
+				66F6CB062DE5D6F70002F78E /* 흙막이공사(지하연속벽) 안전보건작업 지침.pdf in Resources */,
+				66F6CB2D2DE5D6F70002F78E /* 중소규모 관로공사의 안전보건작업지침.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F60BFE2DE5D6620002F78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F60C082DE5D6620002F78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F60BEF2DE5D65F0002F78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F671732DE5D6F60002F78E /* COREXApp.swift in Sources */,
+				66F671AC2DE5D6F60002F78E /* ChatView.swift in Sources */,
+				66F671B42DE5D6F60002F78E /* Chatbot.swift in Sources */,
+				66F671BB2DE5D6F60002F78E /* MessageBubble.swift in Sources */,
+				66F672072DE5D6F60002F78E /* MainView.swift in Sources */,
+				66F672272DE5D6F60002F78E /* ChatMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F60BFC2DE5D6620002F78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F60C062DE5D6620002F78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F60C022DE5D6620002F78E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F60BF22DE5D65F0002F78E /* COREX */;
+			targetProxy = 66F60C012DE5D6620002F78E /* PBXContainerItemProxy */;
+		};
+		66F60C0C2DE5D6620002F78E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F60BF22DE5D65F0002F78E /* COREX */;
+			targetProxy = 66F60C0B2DE5D6620002F78E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66F60C122DE5D6620002F78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66F60C132DE5D6620002F78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F60C152DE5D6620002F78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/watchfiles",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/tokenizers",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/pymupdf",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/numpy/_core/lib",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/tiktoken",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/numpy/random/lib",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/bcrypt",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/rpds",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/jiter",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/onnxruntime/capi",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/google/_upb",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/pymupdf/mupdf-devel/lib",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/orjson",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/pydantic_core",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/faiss/.dylibs",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEE4408.COREX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F60C162DE5D6620002F78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/watchfiles",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/tokenizers",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/pymupdf",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/numpy/_core/lib",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/tiktoken",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/numpy/random/lib",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/bcrypt",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/rpds",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/jiter",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/onnxruntime/capi",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/google/_upb",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/pymupdf/mupdf-devel/lib",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/orjson",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/pydantic_core",
+					"$(PROJECT_DIR)/backend/venv/lib/python3.11/site-packages/faiss/.dylibs",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEE4408.COREX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66F60C182DE5D6620002F78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEE4408.COREXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COREX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COREX";
+			};
+			name = Debug;
+		};
+		66F60C192DE5D6620002F78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEE4408.COREXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COREX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/COREX";
+			};
+			name = Release;
+		};
+		66F60C1B2DE5D6620002F78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEE4408.COREXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = COREX;
+			};
+			name = Debug;
+		};
+		66F60C1C2DE5D6620002F78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8P2GD95YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEE4408.COREXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = COREX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F60BEE2DE5D65F0002F78E /* Build configuration list for PBXProject "COREX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F60C122DE5D6620002F78E /* Debug */,
+				66F60C132DE5D6620002F78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F60C142DE5D6620002F78E /* Build configuration list for PBXNativeTarget "COREX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F60C152DE5D6620002F78E /* Debug */,
+				66F60C162DE5D6620002F78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F60C172DE5D6620002F78E /* Build configuration list for PBXNativeTarget "COREXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F60C182DE5D6620002F78E /* Debug */,
+				66F60C192DE5D6620002F78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F60C1A2DE5D6620002F78E /* Build configuration list for PBXNativeTarget "COREXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F60C1B2DE5D6620002F78E /* Debug */,
+				66F60C1C2DE5D6620002F78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F60BEB2DE5D65F0002F78E /* Project object */;
+}
