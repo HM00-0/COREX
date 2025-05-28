@@ -43,7 +43,15 @@ def query_rag(question: str, history: list[str], k: int = 3) -> str:
     context = "\n\n".join([doc.page_content for doc in docs]) or "No relevant documents were found."
 
     messages = [
-        SystemMessage(content="You are a construction safety manual expert chatbot. Always respond in English, even if the question or documents are in Korean. Your answers must be accurate and concise."),
+        SystemMessage(content=(
+            "You are a professional chatbot for Korean construction safety manuals. "
+            "Always respond in the following format:\n\n"
+            "[Question]\n{user question}\n\n"
+            "[Relevant Regulation Summary]\nSummarize the content extracted from the documents in English, even if the original documents are in Korean.\n\n"
+            "[Expert Answer]\nProvide an accurate and concise answer based on the documents or general knowledge.\n\n"
+            "[Recommendation]\nRecommend follow-up actions or specific regulations.\n\n"
+            "Always respond only in English. Never include Korean text in your output. The tone should be clear, technical, and professional."
+        )),
         HumanMessage(content=f"Refer to the following content to answer the question:\n\n{context}")
     ]
 

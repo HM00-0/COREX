@@ -6,12 +6,17 @@ struct ChatView: View {
 
     var body: some View {
         VStack {
-            ScrollViewReader { proxy in //pour scroller
+            ScrollViewReader { proxy in
                 ScrollView {
                     VStack(spacing: 8) {
                         ForEach(chatbot.messages) { msg in
-                            MessageBubble(message: msg)
-                                .id(msg.id)
+                            if msg.isAnimated {
+                                TypingMessageBubble(fullText: msg.text, isFromUser: msg.isFromUser)
+                                    .id(msg.id)
+                            } else {
+                                MessageBubble(message: msg)
+                                    .id(msg.id)
+                            }
                         }
                     }
                     .padding(.vertical, 10)
@@ -29,7 +34,7 @@ struct ChatView: View {
                     )
                 }
                 .onChange(of: chatbot.messages.count) {
-                    scrollToLast(proxy) //scroll automatiquement
+                    scrollToLast(proxy)
                 }
                 .background(Color(.systemGray6))
             }
@@ -61,8 +66,7 @@ struct ChatView: View {
     private func sendIfValid() {
         let input = chatbot.userInput.trimmingCharacters(in: .whitespaces)
         if !input.isEmpty {
-            chatbot.sendMessage() //sassure que c pas vide le message
-            
+            chatbot.sendMessage()
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 isInputFocused = true
             }
@@ -72,7 +76,7 @@ struct ChatView: View {
     private func scrollToLast(_ proxy: ScrollViewProxy) {
         if let last = chatbot.messages.last {
             withAnimation(.easeOut(duration: 0.3)) {
-                proxy.scrollTo(last.id, anchor: .bottom) //defile auto
+                proxy.scrollTo(last.id, anchor: .bottom)
             }
         }
     }
@@ -83,5 +87,3 @@ struct ChatView_Previews: PreviewProvider {
         ChatView().environmentObject(Chatbot())
     }
 }
-
-//need to rework it to me it ours

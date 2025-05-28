@@ -16,12 +16,12 @@ class Chatbot: ObservableObject {
         guard !input.isEmpty else { return }
 
         // 사용자 메시지 추가
-        let userMessage = ChatMessage(text: input, isFromUser: true)
+        let userMessage = ChatMessage(text: input, isFromUser: true, isAnimated: false)
         messages.append(userMessage)
         userInput = ""
 
         // ✅ API 요청 생성
-        let url = URL(string: "http://192.168.0.3:8000/chat")!  // 로컬 서버 주소
+        let url = URL(string: "http://172.24.129.36:8000/chat")!  // 로컬 서버 주소
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
@@ -39,24 +39,24 @@ class Chatbot: ObservableObject {
             DispatchQueue.main.async {
                 if let error = error {
                     print("❌ API 요청 실패:", error)
-                    let errorMessage = ChatMessage(text: "Error: Unable to connect to server.", isFromUser: false)
+                    let errorMessage = ChatMessage(text: "Error: Unable to connect to server.", isFromUser: false, isAnimated: true)
                     self.messages.append(errorMessage)
                     return
                 }
 
                 guard let data = data else {
-                    let errorMessage = ChatMessage(text: "Error: No data received.", isFromUser: false)
+                    let errorMessage = ChatMessage(text: "Error: No data received.", isFromUser: false, isAnimated: true)
                     self.messages.append(errorMessage)
                     return
                 }
 
                 do {
                     let decoded = try JSONDecoder().decode(ChatResponse.self, from: data)
-                    let botReply = ChatMessage(text: decoded.answer, isFromUser: false)
+                    let botReply = ChatMessage(text: decoded.answer, isFromUser: false, isAnimated: true)
                     self.messages.append(botReply)
                 } catch {
                     print("❌ JSON 디코딩 실패:", error)
-                    let errorMessage = ChatMessage(text: "Error: Invalid response format.", isFromUser: false)
+                    let errorMessage = ChatMessage(text: "Error: Invalid response format.", isFromUser: false, isAnimated: true)
                     self.messages.append(errorMessage)
                 }
             }

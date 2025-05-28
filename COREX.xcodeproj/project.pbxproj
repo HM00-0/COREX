@@ -130,6 +130,7 @@
 		66F6C96C2DE5D6F70002F78E /* 건설공사 안전보건 설계 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C392DE5D6F00002F78E /* 건설공사 안전보건 설계 지침.pdf */; };
 		66F6CB062DE5D6F70002F78E /* 흙막이공사(지하연속벽) 안전보건작업 지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C942DE5D6F00002F78E /* 흙막이공사(지하연속벽) 안전보건작업 지침.pdf */; };
 		66F6CB2D2DE5D6F70002F78E /* 중소규모 관로공사의 안전보건작업지침.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66F60C6F2DE5D6F00002F78E /* 중소규모 관로공사의 안전보건작업지침.pdf */; };
+		66F6CB772DE6CA2E0002F78E /* TypingMessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6CB762DE6CA240002F78E /* TypingMessageBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,6 +277,7 @@
 		66F671632DE5D6F00002F78E /* COREXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COREXApp.swift; sourceTree = "<group>"; };
 		66F671642DE5D6F00002F78E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		66F671652DE5D6F00002F78E /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		66F6CB762DE6CA240002F78E /* TypingMessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingMessageBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -511,6 +513,7 @@
 		66F671662DE5D6F00002F78E /* frontend */ = {
 			isa = PBXGroup;
 			children = (
+				66F6CB762DE6CA240002F78E /* TypingMessageBubble.swift */,
 				66F6715F2DE5D6F00002F78E /* Assets.xcassets */,
 				66F671602DE5D6F00002F78E /* Chatbot.swift */,
 				66F671612DE5D6F00002F78E /* ChatMessage.swift */,
@@ -784,6 +787,7 @@
 				66F671AC2DE5D6F60002F78E /* ChatView.swift in Sources */,
 				66F671B42DE5D6F60002F78E /* Chatbot.swift in Sources */,
 				66F671BB2DE5D6F60002F78E /* MessageBubble.swift in Sources */,
+				66F6CB772DE6CA2E0002F78E /* TypingMessageBubble.swift in Sources */,
 				66F672072DE5D6F60002F78E /* MainView.swift in Sources */,
 				66F672272DE5D6F60002F78E /* ChatMessage.swift in Sources */,
 			);
