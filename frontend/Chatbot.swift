@@ -15,18 +15,17 @@ class Chatbot: ObservableObject {
         let input = userInput.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !input.isEmpty else { return }
 
-        // 사용자 메시지 추가
         let userMessage = ChatMessage(text: input, isFromUser: true, isAnimated: false)
         messages.append(userMessage)
         userInput = ""
 
-        // ✅ API 요청 생성
-        let url = URL(string: "http://172.24.129.36:8000/chat")!  // 로컬 서버 주소
+
+        let url = URL(string: "http://192.168.0.3:8000/chat")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
 
-        // body JSON 구성
+
         let body: [String: Any] = [
             "question": input,
             "history": [],
@@ -34,7 +33,6 @@ class Chatbot: ObservableObject {
         ]
         request.httpBody = try? JSONSerialization.data(withJSONObject: body)
 
-        // 네트워크 요청 수행
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             DispatchQueue.main.async {
                 if let error = error {
@@ -66,7 +64,6 @@ class Chatbot: ObservableObject {
     }
 }
 
-// ChatResponse 모델 정의
 struct ChatResponse: Decodable {
     let answer: String
 }

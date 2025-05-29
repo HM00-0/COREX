@@ -5,19 +5,19 @@ struct MessageBubble: View {
 
     var body: some View {
         
-        HStack { //de gauche a droite cette fois
+        HStack {
             if message.isFromUser {
-                Spacer() //met le message a droite
+                Spacer()
                 Text(message.text)
                     .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
+                    .background(Color.white)
+                    .foregroundColor(.black)
                     .cornerRadius(16)
-                    .frame(maxWidth: 250, alignment: .trailing) //le trailing le met bien a droite
+                    .frame(maxWidth: 250, alignment: .trailing)
             } else {
                 Text(message.text)
                     .padding()
-                    .background(Color.pink)
+                    .background(Color.blue.opacity(0.3))
                     .foregroundColor(.black)
                     .cornerRadius(16)
                     .frame(maxWidth: 250, alignment: .leading)
@@ -25,6 +25,6 @@ struct MessageBubble: View {
             }
         }
         .padding(.horizontal)
-        .padding(.vertical, 2) //pas sur de lutilite 
+        .padding(.vertical, 2)
     }
 }

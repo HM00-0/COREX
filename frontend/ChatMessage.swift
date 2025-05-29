@@ -10,9 +10,8 @@
 import Foundation
 
 struct ChatMessage: Identifiable {
-    let id = UUID() // id to control them when needed? I guess?
-    let text: String // text as string
-    let isFromUser: Bool // true-userMessage, false-botMessage
+    let id = UUID()
+    let text: String
+    let isFromUser: Bool
     let isAnimated: Bool
-    /// ADD MORE PROPERTIES IF NEEDED
 }

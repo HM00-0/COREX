@@ -6,7 +6,7 @@ struct TypingMessageBubble: View {
 
     @State private var displayedText = ""
     @State private var currentIndex = 0
-    let typingSpeed: TimeInterval = 0.03 // 한 글자당 딜레이 (빠르기 조절 가능)
+    let typingSpeed: TimeInterval = 0.01
 
     var body: some View {
         HStack {
@@ -14,14 +14,14 @@ struct TypingMessageBubble: View {
                 Spacer()
                 Text(displayedText)
                     .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
+                    .background(Color.white)
+                    .foregroundColor(.black)
                     .cornerRadius(16)
                     .frame(maxWidth: 250, alignment: .trailing)
             } else {
                 Text(displayedText)
                     .padding()
-                    .background(Color.pink)
+                    .background(Color.blue.opacity(0.3))
                     .foregroundColor(.black)
                     .cornerRadius(16)
                     .frame(maxWidth: 250, alignment: .leading)

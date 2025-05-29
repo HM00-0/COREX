@@ -7,32 +7,32 @@ struct MainView: View {
                 LinearGradient(gradient: Gradient(colors: [.blue.opacity(0.2), .gray.opacity(0.1)]),
                                startPoint: .top,
                                endPoint: .bottom)
-                    .ignoresSafeArea() //pour que le grqdient soit vrm partout bleu vers gris
+                    .ignoresSafeArea()
 
-                VStack(spacing: 20) { // entre le rond et le welcome
-                    Image(systemName: "building.2.crop.circle") // dans base de donees
-                        .resizable() // pour dimensionner apres
-                        .scaledToFit() // le ratio de limage
-                        .frame(width: 120, height: 120) //grace a resizable et scaled
+                VStack(spacing: 20) {
+                    Image(systemName: "building.2.crop.circle")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 120, height: 120)
                         .foregroundColor(.blue)
                         .shadow(radius: 10)
 
-                    VStack(spacing: 4) { // pour aligner les elements les uns en dessous des autres
+                    VStack(spacing: 4) {
                         Text("Welcome to")
                             .font(.title2)
                             .foregroundColor(.blue)
 
                         Text("COREX")
-                            .font(.system(size: 40, weight: .bold, design: .rounded)) //pas beau en title
+                            .font(.system(size: 40, weight: .bold, design: .rounded))
                             .foregroundColor(.blue)
                     }
 
                     NavigationLink(destination: ChatView()) {
                         Text("Start Chat")
                             .font(.headline)
-                            .padding() //agrandit lespace autour
-                            .frame(width: 200) // longueur du bleu autour
-                            .background(Color.blue)
+                            .padding() 
+                            .frame(width: 200)
+                            .background(Color.blue.opacity(0.7))
                             .foregroundColor(.white)
                             .cornerRadius(12)//coins
                             .shadow(radius: 4)
