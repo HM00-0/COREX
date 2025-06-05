@@ -50,7 +50,7 @@ A construction safety regulation chatbot built with **ChatGPT API**, **FastAPI (
 pip install -r requirements.txt
 
 # Run the FastAPI server
-uvicorn app.api:app --reload
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### 2. Frontend (Swift)
