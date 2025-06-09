@@ -11,8 +11,12 @@ struct ChatView: View {
                     VStack(spacing: 8) {
                         ForEach(chatbot.messages) { msg in
                             if msg.isAnimated {
-                                TypingMessageBubble(fullText: msg.text, isFromUser: msg.isFromUser)
-                                    .id(msg.id)
+                                TypingMessageBubble(fullText: msg.text, isFromUser: msg.isFromUser) {
+                                    withAnimation(.easeOut(duration: 0.1)) {
+                                        proxy.scrollTo(msg.id, anchor: .bottom)
+                                    }
+                                }
+                                .id(msg.id)
                             } else {
                                 MessageBubble(message: msg)
                                     .id(msg.id)
@@ -87,3 +91,4 @@ struct ChatView_Previews: PreviewProvider {
         ChatView().environmentObject(Chatbot())
     }
 }
+

@@ -3,10 +3,11 @@ import SwiftUI
 struct TypingMessageBubble: View {
     let fullText: String
     let isFromUser: Bool
+    let onUpdate: () -> Void
 
     @State private var displayedText = ""
     @State private var currentIndex = 0
-    let typingSpeed: TimeInterval = 0.01
+    let typingSpeed: TimeInterval = 0.02
 
     var body: some View {
         HStack {
@@ -37,10 +38,12 @@ struct TypingMessageBubble: View {
 
     func startTyping() {
         Timer.scheduledTimer(withTimeInterval: typingSpeed, repeats: true) { timer in
-            if currentIndex < fullText.count {
-                let index = fullText.index(fullText.startIndex, offsetBy: currentIndex + 1)
+            if currentIndex <= fullText.count {
+                let index = fullText.index(fullText.startIndex, offsetBy: currentIndex)
                 displayedText = String(fullText[..<index])
                 currentIndex += 1
+                
+                onUpdate()
             } else {
                 timer.invalidate()
             }
