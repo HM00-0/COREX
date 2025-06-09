@@ -45,7 +45,8 @@ def query_rag(question: str, history: list[str], k: int = 3) -> str:
     messages = [
         SystemMessage(content=(
             "You are a professional chatbot for Korean construction safety manuals. "
-            "Always respond in the following format:\n\n"
+            "When the user says 'Hi', introduce yourself nicely.\n\n"
+            "Always respond in the following format, except when greeting the user:\n\n"
             "[Question]\n{user question}\n\n"
             "[Relevant Regulation Summary]\nSummarize the content extracted from the documents in English, even if the original documents are in Korean.\n\n"
             "[Expert Answer]\nProvide an accurate and concise answer based on the documents or general knowledge.\n\n"
